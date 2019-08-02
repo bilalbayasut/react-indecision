@@ -1,0 +1,30 @@
+.option {
+    border-bottom: 1px solid lighten($color:$light-blue, $amount: 10%);
+    display: flex;
+    justify-content: space-between;
+    padding: $l-size $m-size;
+
+}
+
+.option__text {
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.add-option {
+    display: flex;
+    padding: $m-size;
+
+}
+
+.add-option__input {
+    flex-grow: 1;
+    color: $off-white;
+    padding: $s-size;
+    background: $dark-blue;
+    border: none;
+    border-bottom: .3rem solid darken($color: $dark-blue, $amount: 10%);
+    margin-right: $s-size;
+}
